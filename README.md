@@ -1,2 +1,32 @@
-# LoRA-English-Malayalam-Translation
-This repository contains the implementation and fine-tuning of the Gemma 2B model for English-Malayalam bilingual translation tasks using Low-Rank Adaptation (LoRA).
+# Fine-Tune GEMMA 2B for Bilingual Translation (English to Malayalam) with LoRA
+
+This repository contains a Jupyter Notebook that provides a general workflow for fine-tuning the GEMMA 2B model for bilingual translation tasks. Specifically, it focuses on translating between English and Malayalam using the Low-Rank Adaptation (LoRA) method.
+
+## Overview
+
+The notebook covers the following key aspects:
+
+- **Model Introduction**: Overview of the GEMMA 2B model and the benefits of using LoRA for efficient fine-tuning.
+- **Data Requirements**: Guidelines on preparing a parallel corpus for English-Malayalam translation tasks.
+- **Fine-Tuning Workflow**: Step-by-step instructions for:
+  - Loading the pre-trained GEMMA 2B model.
+  - Applying LoRA for efficient parameter updates.
+  - Running the fine-tuning process.
+- **Evaluation**: BLEU technique is used to assess the performance of the fine-tuned model.
+
+## Steps in the notebook :
+   - Preprocess your dataset. [Used dataset is upload for refernece]
+   - Configure the GEMMA 2B model with LoRA.
+   - Fine-tune and evaluate the model.
+
+## Contributions
+
+Feel free to contribute by submitting issues or pull requests to enhance the notebook or its documentation.
+
+## License
+
+This project is licensed under the Apache 2.0. See the `LICENSE` file for more details.
+
+---
+
+Enjoy fine-tuning!
