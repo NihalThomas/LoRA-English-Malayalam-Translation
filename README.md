@@ -15,9 +15,13 @@ The notebook covers the following key aspects:
 - **Evaluation**: BLEU technique is used to assess the performance of the fine-tuned model.
 
 ## Steps in the notebook :
-   - Preprocess your dataset. [Used dataset is upload for refernece]
+   - Preprocess your dataset. [Used dataset is given below]
    - Configure the GEMMA 2B model with LoRA.
    - Fine-tune and evaluate the model.
+
+## Dataset
+
+This notebook uses the [English-Malayalam Translation Dataset](https://www.kaggle.com/datasets/nihalthomas15/lang-trans-eng-malayalam) from Kaggle. Ensure that you download and preprocess the dataset before beginning the fine-tuning process.
 
 ## Contributions
 
